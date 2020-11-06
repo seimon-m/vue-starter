@@ -1,0 +1,32 @@
+<template>
+    <div>
+        <h2>{{ person.fields.vorname + " " + person.fields.nachname }}</h2>
+        <img :src="person.fields.profilphoto.fields.file.url" />
+        <p>
+            Travels from {{ start.fields.title }} to
+            {{ destination.fields.title }}
+        </p>
+    </div>
+</template>
+
+<script>
+export default {
+    name: "Commute",
+    props: {
+        person: Object,
+        start: Object,
+        destination: Object,
+    },
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+h2 {
+    margin: 40px 0 0;
+}
+
+img {
+    width: 400px;
+}
+</style>
