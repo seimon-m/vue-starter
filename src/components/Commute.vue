@@ -28,5 +28,6 @@ h2 {
 
 img {
     width: 400px;
+    border-radius: 10px;
 }
 </style>
