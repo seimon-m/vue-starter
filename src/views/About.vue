@@ -6,6 +6,6 @@
 
 <style scoped>
     .about {
-        background-color: red;
+        background-color: blue;
     }
 </style>
