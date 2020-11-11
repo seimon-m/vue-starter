@@ -4,7 +4,7 @@
     </div>
 </template>
 
-<style scoped>
+<style>
     .about {
         background-color: blue;
     }
